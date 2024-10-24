@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Quiz Game</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+        </div>
+        <input type="text" id="answer-input" placeholder="Enter your answer" />
+        <button id="submit-answer">Submit</button>
+        <div id="feedback"></div>
+        <div id="timer">Time Left: <span id="time-left">60</span> seconds</div>
+        <div id="next-question" class="hidden">
+            <button id="next-btn">Next Question</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
